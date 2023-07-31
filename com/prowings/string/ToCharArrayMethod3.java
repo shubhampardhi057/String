@@ -4,7 +4,7 @@ public class ToCharArrayMethod3 {
 	
 	public static void main(String[] args) {
 		
-		String line = "india is my country,india have 27 states";
+		String line = "india is my country india have 27 states";
 		
 		String [] words = line.split(" ");
 		
@@ -16,6 +16,10 @@ public class ToCharArrayMethod3 {
 			{
 				if(words[i].equals(words[j]))
 				{
+					if(i == 4)
+					{
+						continue;
+					}
 					wordcount++;
 				}
 			}

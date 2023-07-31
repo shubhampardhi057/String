@@ -10,11 +10,7 @@ public class ValueOfMethod {
 		
 		System.out.println(s);
 		
-		
-		
-		
 		//  Integer class parseInt() method  --  conversion String to Integer
-		
 		
 		
 		int x = Integer.parseInt(s);

@@ -12,9 +12,13 @@ public class InternMethod {
 		System.out.println(s1 == s2);
 		
 		
-		s2 = s2.intern();
+		 s2=s2.intern();
 		
 		System.out.println(s1 == s2);
+		
+		String s5= "helloworld";
+		
+		System.out.println(s5.substring(5));
 		
 		
 		

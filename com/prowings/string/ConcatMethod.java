@@ -14,8 +14,9 @@ public class ConcatMethod {
 		
 		
 		System.out.println(s5);
-		System.out.println(s3 == s5);
 		System.out.println(s6);
+		
+		System.out.println(s3 == s5);
 		System.out.println(s3 == s6);
 		
 		
@@ -23,8 +24,9 @@ public class ConcatMethod {
 		String s8 = s3+s4;
 		
 		System.out.println(s7);
-		System.out.println(s7 == s5);
 		System.out.println(s8);
+		
+		System.out.println(s7 == s5);
 		System.out.println(s8 == s6);
 		
 		

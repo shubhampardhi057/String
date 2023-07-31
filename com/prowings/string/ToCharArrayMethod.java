@@ -10,7 +10,7 @@ public class ToCharArrayMethod {
 		
 		for(char character:characters)
 		{
-			System.out.println(character);
+			System.out.print(character);
 			
 		}
 		

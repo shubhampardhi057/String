@@ -6,8 +6,6 @@ public class ToCharArrayMethod2 {
 	
 	public static void main(String[] args) {
 		
-	
-	
 	String line = "india is my country india have 27 states";
 	
 	String [] words = line.split(" ");
